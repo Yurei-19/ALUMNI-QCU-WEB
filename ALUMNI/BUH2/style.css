@@ -1,0 +1,1546 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(90deg, #ffffff, #E1D9D1); 
+    padding: 0px 20px; 
+}
+
+.logo-text-container {
+    display: flex;
+    align-items: center; 
+  }
+
+.qcu-logo {
+    width: 200px;   
+}
+.qcu-logo img {
+    height: 80px;
+}
+.headings {
+  margin-left: 10px; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+  width: 400px;
+}
+.qcu, .alumni {
+    margin: 0;
+    color: #000; 
+   
+  }
+  
+  .alumni {
+    font-size: 1.5em; 
+  }
+.nav {
+    display: flex;
+    align-items: center;
+}
+ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    transform: skew(-20deg); /* the entire list for parallelogram shapes */
+    font-size: 14px;
+}
+    
+.nav-button {
+    padding: 40px 50px;
+    margin: 0 5px; /* Spacing between buttons */
+    background-color: #fff; /* Button background color */
+    background-size: 200%;
+    transition: 0.5s;
+    width: 140px;
+}
+
+.nav-button:hover {
+   background-position: left; /* Change background color on hover */
+}
+
+.nav-button img, 
+.nav-button a {
+    transform: skew(20deg); /* Reverse skew to straighten content */
+    display: inline-block; /* Needed for transform to take effect */
+    
+}
+
+.nav-button img {
+    height: 24px; /* Adjust icon size */
+    width: auto; /* Maintain aspect ratio */
+    margin-right: 8px; /* Space between icon and text */
+}
+
+
+  body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    background-image: url('bgimage.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .nav-button a {
+    /* Increase font size for larger text inside the buttons */
+    font-size: 1em;
+    text-decoration: none; /* Remove underline from links */
+    color: #000; /* Text color */
+    font-weight: bold; /* Bold text */
+}
+
+@media (max-width: 768px) {
+    /* Adjust styles for mobile view */
+}
+
+.nav-button:hover, .nav-button:focus {
+    /* Change the button background color on hover/focus */
+    background: linear-gradient(95deg, rgba(0, 0, 0, 0.76), rgb(99, 99, 235));; /* Blue color for hover */
+}
+
+.nav-button:hover img, .nav-button:focus img {
+    filter: brightness(0) invert(1); /* White color for the icon */
+}
+
+.nav-button:hover a, .nav-button:focus a {
+    color: #fff; /* White color for the text */
+}
+.community-container {
+    width: 1400px;
+    height: 900px;
+    background-color: rgb(255, 255, 255);
+    margin: 70px auto;
+    display: flex;
+}
+.left-community-container {
+    border: 2px black solid;
+    width: 25%;
+    height: 100%;
+    background-color: rgb(212, 214, 213);
+    padding: 30px;
+}
+.top-left-community-container{
+    width: 100%;
+    height: 10%;
+    border-bottom: #000 3px solid;
+}
+.top-left-community-container input {
+    width: 100%;
+    height: 25px;
+}
+.bottom-left-community-container{
+    margin: 10px;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.button-kyusimunity {
+    width: 200px;
+    height: 60px;
+    text-align: left;
+    color: white;
+    font-weight: bold;
+    background: linear-gradient(95deg, rgb(0,0,0), rgb(99, 99, 235));
+    border: transparent;
+    cursor:pointer;
+    margin: 5px;
+    padding-left: 5px;
+    font-size: 20px;
+}
+.button-topics{
+    width: 200px;
+    height: 60px;
+    text-align: left;
+    font-weight: bold;
+    border: transparent;
+    cursor:pointer;
+    margin: 5px;
+    background-color: transparent;
+    padding-left: 5px;
+    font-size: 20px;
+}
+.button-topics2 {
+    width: 200px;
+    height: 60px;
+    text-align: left;
+    color: white;
+    font-weight: bold;
+    background: linear-gradient(95deg, rgb(0,0,0), rgb(99, 99, 235));
+    border: transparent;
+    cursor:pointer;
+    margin: 5px;
+    padding-left: 5px;
+    font-size: 20px;
+}
+.button-kyusimunity2{
+    width: 200px;
+    height: 60px;
+    text-align: left;
+    font-weight: bold;
+    border: transparent;
+    cursor:pointer;
+    margin: 5px;
+    background-color: transparent;
+    padding-left: 5px;
+    font-size: 20px;
+}
+.button-asks{
+    width: 200px;
+    height: 60px;
+    text-align: left;
+    color: white;
+    font-weight: bold;
+    background: linear-gradient(95deg, rgb(0,0,0), rgb(99, 99, 235));
+    border: transparent;
+    cursor:pointer;
+    margin: 5px;
+    padding-left: 5px;
+    font-size: 20px;
+}
+.button-asks2{
+    width: 200px;
+    height: 60px;
+    text-align: left;
+    font-weight: bold;
+    border: transparent;
+    cursor:pointer;
+    margin: 5px;
+    background-color: transparent;
+    padding-left: 5px;
+    font-size: 20px;
+}
+.button-topics2:hover {
+    border: 2px solid black;
+}
+.button-asks:hover {
+    border: 2px solid black;
+}
+.button-asks2:hover {
+    border: 2px solid black;
+    background-color: #fff;
+}
+.button-kyusimunity:hover {
+    border: 2px solid black;
+}
+.button-topics:hover {
+    border: 2px solid black;
+    background-color: #fff;
+}
+.button-kyusimunity2:hover {
+    border: 2px solid black;
+    background-color: #fff;
+}
+.button-asks{
+    width: 200px;
+    height: 60px;
+    text-align: left;
+    font-weight: bold;
+    border: transparent;
+    cursor:pointer;
+    margin: 5px;
+    background-color: transparent;
+    padding-left: 5px;
+    font-size: 20px;
+}
+.community-button{
+    width: 250px;
+    height: 100px;
+    float: right;
+    margin: 20px;
+    color: white;
+    background: linear-gradient(95deg, rgb(0,0,0), rgb(99, 99, 235));
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 30px;
+    position:absolute;
+    right: 10px;
+    top: 150px;
+}
+.scrollable {
+    width: 100%;
+    height: 100%;
+    border: 2px black solid;
+    overflow: auto;
+}
+.right-community-container-profile{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(95deg, rgb(0,0,0), rgb(99, 99, 235));
+    padding-top: 30px;
+    padding-left: 30px;
+    overflow: auto;
+    
+}
+#bulletinBoard {
+    width: 500px; /* Adjust the width  */
+    margin: 20px; /* Adjust the margin  */
+    float: right; /* Align to the right */
+    background: linear-gradient(95deg, rgb(0,0,0), rgb(99, 99, 235));
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow for styling */
+    padding: 20px;
+    color: white;
+    overflow: hidden; /* Hide the overflow */
+    height: 800px; /* Adjust the height  */
+    position: absolute;
+    right: 300px;
+    top: 150px;
+}
+
+#bulletinBoard h2 {
+    text-align: center; /* Center the title */
+    margin-bottom: 20px; /* Space below the title */
+}
+
+.bulletin-images {
+    width: 100%;
+    height: calc(100% - 40px); /* Adjust height  */
+    overflow-y: auto; /* Allows for vertical scrolling */
+}
+
+.bulletin-image {
+    width: 100%;
+    display: block; /* Stack images vertically */
+    margin-bottom: 10px; /* Space between images */
+    height: auto; /* Adjust height as needed */
+}
+
+#enlargedImageContainer {
+    position: absolute;
+    top: 150px; /* Adjust this value to position the enlarged image vertically */
+    left: 200px; /* Adjust this value to position the enlarged image horizontally */
+    z-index: 999; /* Ensure the enlarged image is above other content */
+}
+
+#enlargedImageContainer p {
+    border: 1px solid #000; /* Add a border around the description */
+    background-color: #fff; /* Set a white background color */
+    padding: 10px; /* Add some padding around the text */
+}
+
+.home-content {
+    margin: 50px;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+}
+.top-content {
+     
+        font-family: "Dancing Script", cursive;
+        font-optical-sizing: auto;
+        font-weight: weight;
+        font-style: normal;
+        font-size: 35px;
+}
+.mid-content {
+    font-size: 90px;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 0.25rem;
+}
+.bottom-content {
+    font-family:'Times New Roman', Times, serif;
+    letter-spacing: 0.25rem;
+}
+
+.about {
+    width: 1500px;
+    height: 800px;
+    background-color: rgb(212, 214, 213);
+    margin: 50px auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.qcu-location-container iframe{
+    border-radius: 25px;
+    width:100%;
+}
+.qcu-location-container:hover{
+    border: solid black 2px;
+}
+.qcu-location-container {
+    width: 70%;
+    height: 460px;
+    margin:10px;
+    border-radius: 25px;
+    padding: 3px;
+}
+.qcu-location-container img {
+    width: 100%;
+    height: 100%;
+}
+
+.about-address-contact-info{
+    width: 70%;
+    height: 30%;
+    padding: 10px;
+    margin: 10px;
+    font-size: 10px;
+    background-color: rgb(212, 214, 213);
+}
+.about-address-contact-info h1 {
+    margin: 45px 10px;
+}
+.right-content {
+    width: 25%;
+    margin: 10px;
+    height: 500px;
+    padding: 10px;
+}
+.un-bold {
+    font-weight: lighter;
+}
+.top-right-content {
+    width: 30.5%;
+    padding: 20px;
+    margin: -10px;
+    margin-top:-20px;
+    margin-right:-21px;
+    background: linear-gradient(95deg, rgb(0,0,0), rgb(99, 99, 235));
+    color: #fff;
+}
+.right-content {
+    border-left: 7px black solid;
+    width: 31%;
+    margin-left: -10px;
+    height: 81%;
+    padding: 30px;
+    padding-top: 0;
+}
+.about-mission, .about-vision {
+    margin: 10px;
+    padding: 20px;
+    padding-top: 10px;
+    background-color: #fff;
+    height: 50%;
+    border-radius: 10px;
+}
+.about-mission, .about-vision p {
+    line-height: 2;
+}
+/*events*/
+.events-container {
+    width: 1800px;
+    height: 800px;
+    background-color: rgb(212, 214, 213);
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-bottom: -10px;
+}
+.h1-date h1{
+    font-size: 40px;
+}
+.h1-date {
+    width: 700px;
+    height: 20%;
+    padding :50px;
+    color: white;
+    text-align: center;
+}
+.title-description-event {
+    width: 700px;
+    height: 79.6%;
+    color: white;
+    padding: 20px;
+}
+.grey-line {
+    border: 1px rgb(250, 227, 227) solid;
+    width: 30%;
+}
+/* calendarr */
+
+.calendar-container {
+    width: 65%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.month {
+    margin: 10px auto;
+    padding :10px;
+    width: 140px;
+    text-align: center;
+    color: white;
+    background-color:#033f63 ;
+}
+.month-container {
+    margin: 10px;
+    padding :10px;
+    width: 200px;
+    height: 30%;
+    background-color: #fff;
+}
+table, td, th{
+    width: 100%;
+            table-layout: fixed;
+            text-align: center;
+}
+th{
+    background: #033f63;
+    color: white;
+    font-family: arial black;
+    padding: 5px;
+    font-size: 7px;
+}
+
+td{
+    background: #e7e9eb;
+    color: rgb(87, 100, 223);
+    font-size: 10px;
+}
+td:hover{
+    background: rgb(243, 245, 243);
+}
+
+
+.h1-date, .title-description-event {
+    background: linear-gradient(95deg, rgb(0,0,0), rgb(99, 99, 235));
+}
+.u-week {
+    background-color: rgb(243, 95, 50);
+    color:white;
+}
+.u-week:hover {
+    color: rgb(87, 100, 223);
+    background: #e7e9eb;
+}
+/*alumni*/
+.alumni-container {
+    width: 1500px;
+    height: 800px;
+    background-color: rgb(212, 214, 213);
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.welcome-login{
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    padding-top: 100px;
+    background-image: url('login-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(224, 215, 215, 0.925);
+}
+.welcome-login h1{
+    font-size: 60px;
+    font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.welcome-login h2 {
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.welcome-login-button{
+    border-color: rgb(99, 99, 235);
+    padding: 10px 30px;
+    font-size: 30px;
+    background-color: transparent;
+    border-width: 3px;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.create-account {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background: linear-gradient(95deg, rgb(0,0,0), rgb(99, 99, 235));
+}
+.create-account-inner-container{
+    width: 500px;
+}
+.check {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    margin-left: 30px;
+}   
+.remember-me-label {
+    color: #fff;
+   font-weight: bold;
+    font-size: 15px;
+    padding-bottom: 15px;
+    height: 40px;
+    width: 600px;
+    align-items: left;
+    display: flex;
+    margin-top: 20px;
+}
+
+.create-account h1{
+    color: #fff;
+    font-size: 50px;
+    margin-bottom: 40px;
+    margin-top: 100px;
+    width: 600px;
+    padding-right: 50px
+}
+.textbox-alumni{
+    width: 500px;
+    height: 70px;
+    font-size: 20px;
+    margin: 10px;
+    border-radius: 30px;
+    padding-left: 30px;
+}
+.create-account-button {
+    border-color: rgb(255, 255, 255);
+    padding: 10px 30px;
+    font-size: 30px;
+    background-color: transparent;
+    border-width: 3px;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-top: 40px;
+    color: white;
+}
+.checkbox-alumni {
+    width: 20px;
+    height: 20px;
+    margin: 10px;
+}
+.checkbox-color {
+    color: white;
+    padding: 20px;
+    padding-right:300px;
+    font-weight: bold;
+}
+
+.events-container3 {
+    width: 900px;
+    height: 800px;
+    background-color: #fff;
+    margin: 50px 40px 10px 10px;
+    padding: 20px;
+    float: right;
+}
+.top-event3{
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 20px 20px 0 20px;
+    padding: 20px;
+}
+.event-details {
+    font-size: 50px;
+    width: 350px;   
+    margin: 10px;
+}
+.mini-calendar{
+    height: 45px;
+    width: 400px;
+    background-color: rgb(212, 214, 213);
+    display: flex;
+    padding: 9px 13px;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px;
+}
+.mini-calendar label {
+    margin-right: 50px;
+}
+.mini-calendar input {
+    width: 200px;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.description {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 100px;
+}
+
+.title-events3{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 50px;
+}
+#event-date, #event-description, .mini-calendar, #event-name {
+    border-radius: 25px;
+}
+#event-description{
+    width: 740px;
+}
+.title-textbox {
+    width: 300px;
+    background-color: rgb(212, 214, 213);
+    border-color: transparent;
+    height: 50px;
+    padding: 30px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.table-events3 {
+    border: 0;
+    background-color: white;
+}
+.bottom-event3{
+   
+    width: 700px;
+    height: 300px;
+    margin: 0 50px 50px 50px;
+}
+.bottom-event3 textarea{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(212, 214, 213);
+    padding: 40px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.events3-submit {
+    float: right;
+    width: 275px;
+    height: 75px;
+    margin-right: 140px;
+    background-color: #007bff;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+    border-color: transparent;
+    font-size: 25px;
+}
+
+/* BUTTON-OF-EVENTS*/
+.calendar-number {
+    border-color:transparent;
+    width: 100%;
+}
+.calendar-number-event {
+    background-color:rgb(243, 95, 50);
+    color:white;
+    width: 100%;
+}
+.calendar-number:hover{
+    border-color:black;
+}
+
+
+.event-table {
+    width: 500px;
+    height: 250px;
+}
+.events3-outer-container {
+    display: flex;
+}
+.alumni-form-container {
+    width: 1200px;
+    height: 650px;
+    background-color: #fff;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.left-side-addalumni{
+    display: flex;
+    width: 500px;
+    height: 650px;
+    flex-direction: column;
+    padding: 10px;
+    flex-wrap: wrap;
+    gap: 10px;
+    text-align: center;
+    margin-right: 25px;
+    justify-content: space-between;
+    
+}
+
+.img-container-addalumni {
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    
+}
+.upload-type {
+    width: 250px;
+    color: white;
+    background: linear-gradient(95deg, rgb(0,0,0), rgb(99, 99, 235));
+    border-radius: 10px;
+    font-weight: bold;
+    height: 70px;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.img-container-addalumni img{
+    width: 190px;
+    height: 190px;
+}
+.create-account-addalumni{
+    width: 200px;
+    height: 50px;
+    margin: 0 auto;
+    color: white;
+    background: linear-gradient(95deg, rgb(0,0,0), rgb(99, 99, 235));
+    border-radius: 10px;
+    font-weight: bold;
+}
+.create-account-addalumni:hover{
+    cursor: pointer;
+    background: linear-gradient(95deg, rgb(32, 32, 32), rgb(100, 100, 254));
+}
+.alumni-form-container form {
+    width: 1200px;
+    height: 750px;
+    background-color: #fff;
+    margin: 50px auto;
+    padding: 0 25px 25px 25px;
+    display: flex;
+    gap: 25px;
+}
+.text-box-top-addalumni1 {
+    width: 350px;
+    height: 45px;
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+    
+}
+.text-box-top-addalumni2 {
+    width: 227px;
+    height: 45px;
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+   
+}
+.text-box-bottom-addalumni {
+    width: 93%;
+    height: 45px;
+    margin: 8px;
+    padding: 10px;
+    font-size: 20px;
+    
+}
+.addalumni-textarea{
+    width: 93%;
+    height: 200px;
+    margin: 8px;
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'Arial', sans-serif;
+   
+}
+.alumni-form-container form input, .alumni-form-container form textarea{
+    background-color: #D4D5E0;
+    border-radius: 10px;
+}
+
+/* POP- UPPPP*/
+.pop-up-container {
+    display: block;
+    background-color: #fff;
+    width: 700px;
+    height: 400px;
+    position: fixed;
+    top: 35%;
+    left: 31%;
+    border-radius: 15px;
+    
+    border: 10px black solid;
+}
+
+.close-button-admin-dashboard {
+    
+    margin: 10px auto;
+    width: 100px;
+    height: 50px;
+    background-color: rgb(48, 48, 233);
+    color: white;
+    border-radius: 10px;
+    display: block;
+    border: 4px solid black;
+    align-items: center;
+    font-weight: bold;
+}
+
+.close-button-admin-dashboard:hover{
+    cursor:pointer;
+    background-color: #007bff;
+}
+.pop-up-container p {
+    display: block;
+    width: 400px;
+    height:160px;
+    text-align: center;
+    margin: 120px 25% 0 22%;
+    font-weight: bold;
+    font-size: 30px;
+}
+.highlight-admin {
+    color: rgb(48, 48, 233);
+}
+.start-button-index1 {
+    height: 70px;
+    position: absolute;
+    bottom: 30px;
+    right: 41%;
+    border: black 5px solid;
+    width: 120px;
+    padding: 20px 20px 20px 20px;
+    font-weight: bold;
+    font-size: 20px;
+    color: #fff;
+    background-color: #007bff;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.start-button-index1:hover{
+    background-color: #3c95f5;
+}
+.hello-pop-up {
+    text-align: center;
+    margin-top: 60px;
+    padding-top: 25px;
+    color: #fff;
+}
+.welcome-pop-up{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 30px;
+}
+.hello-background-index{
+    height: 100px;
+    width: 200px;
+    background-color: #007bff;
+    margin: auto;
+    border-radius: 10px;
+   
+}
+
+/*PROFILE*/
+.main-container-profile {
+    width: 1000px;
+    border-radius: 20px;
+    height: 325px;
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 40px;
+    gap: 10px;
+    align-items: center;
+    box-shadow: 15px 15px 15px black;
+    border-top: 4px solid black;
+}
+.profile-picture-main {
+    width: 200px;
+    height: 200px;
+    
+}
+.profile-picture-main img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.h1-profile {
+    font-size: 25px;
+    
+}
+.h1-profile-value {
+   font-size: 15px;
+   font-weight: bold;
+}
+
+/*LOGOUTMODAL*/
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgba(0,0,0,0.5); /* Black w/ opacity */
+  }
+  .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    
+    border: 1px solid #888;
+    width: 40%; /* Could be more or less, depending on screen size */
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }  
+  .log-out-h1 {
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+  .log-out-p {
+    text-align: left;
+    font-size: 25px;
+    margin-left: 20px;
+    color: rgb(131, 122, 122);
+  }
+  .grey-box {
+    height: 100px;
+    width: 100%;
+    background-color: rgb(238, 235, 235);
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+  }
+  .close, .modal-log-out-button {
+    margin: 10px 10px 10px 10px;
+    font-size: 20px;   
+    padding: 15px 20px 20px 20px;
+   height: 50px;
+   width: 100%;
+   border-radius: 20px;
+   cursor: pointer;
+  
+  }
+  .close {
+    color: rgb(129, 128, 128)
+  }
+  .close:hover {
+    background-color: rgb(235, 227, 227)
+    
+  }
+  .modal-log-out-button{
+    background-color: rgb(230, 32, 32);
+    text-decoration: none;
+    color: white;
+    border: #000000 solid 2px;
+  }
+  .modal-log-out-button:hover{
+    background-color:rgb(230, 89, 89); ;
+    
+  }
+  .blue-border-box {
+    border: transparent solid 4px;
+    height: 70px;
+    padding: 10px 0 0 10px;
+  }
+  .transparent-border-box {
+    border: transparent solid 4px;
+    height: 70px;
+   
+    padding: 10px;
+  }
+  .approval-container {
+    width: 1200px;
+    height: 700px;
+    background-color: #fff;
+    margin: 0 auto 30px auto;
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+  }
+  .clickable-div {
+    width: 300px;
+    height: 525px;
+    background-color:#D4D5E0;
+    text-align: center;
+    line-height: 50px;
+    cursor: pointer;
+    margin: 20px;
+    border-radius: 25px;
+    padding: 20px;  
+    position: relative;
+  }
+  .clickable-div:hover {
+    border: 3px solid black;
+    background-color:#e5e6eb; 
+  }
+  /* Style for the hidden div */
+  .hidden-div {
+    display: none;
+    width: 425px;
+    height: 600px;
+    
+    text-align: center;
+    line-height: 50px;
+    margin: 20px;
+  }
+  .left-side-approval {
+    border: 2px solid black;
+    height: 100%;
+    width: 60%;
+    padding: 20px
+  }
+  .right-side-approval {
+    width: 40%;
+    height: 100%;
+    border: 2px solid black;
+    background: linear-gradient(95deg, rgb(0,0,0), rgb(99, 99, 235));
+  }
+  .scrollable1 {
+  
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    overflow-x: auto;
+    flex-wrap: wrap;
+    
+  }
+  
+  .hidden-approval-profile {
+    padding: 20px;
+    width: 400px;
+    height: 650px;
+    background-color:#D4D5E0;
+    margin: 0 auto;
+    border-radius: 25px;
+  }
+  .profile-picture-approval {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 0 auto;
+  }
+  .profile-picture-approval img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+  }
+  .h2-profile, .h2-profile-value {
+    font-size: 10px;
+    width: 200px;
+    height: 12px;
+  }
+  .profile-info-div {
+    width: 200px;
+    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+  }
+  .h2-profile-description, .h2-profile-value-description {
+    font-size: 10px;
+    width: 100px;
+    height: 5px;
+  }
+  .alumni-profile {
+
+  }
+
+  .hidden-profile-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+  .hidden-profile-info {
+   
+    width: 350px;
+    height: 425px;
+    text-align: left;
+  }
+  .hidden-approval-profile button {
+    width: 120px;
+    height: 50px;
+    border-radius: 25px;
+    color: white;
+    border: transparent;
+  }
+  .hidden-approval-profile button:hover{
+    cursor: pointer;
+  }
+  #approveButton {
+    background-color: rgb(129, 190, 38);
+    border: black 4px solid;
+  }
+  #approveButton:hover {
+    background-color: rgb(155, 219, 58);
+  }
+  #rejectButton{
+    background-color: red;
+
+  }
+  #rejectButton:hover{
+    background-color: rgb(226, 67, 67);
+    border: 2px solid black;
+  }
+  .approval-request-h1 {
+    margin: 0 auto 0 auto;
+    text-align: center;
+    color: #fff;
+    background: linear-gradient(95deg, rgb(0,0,0), rgb(99, 99, 235));
+    height: 90px;
+    padding-top: 20px;
+    width: 1200px;
+  }
+  .clickformore{
+    position: absolute;
+    color: blue;
+    font-size: 10px;
+    bottom: 0;
+    right: 10px;
+  }
+
+  .search-container {
+    width: 400px;
+    height: 50px;
+    position: absolute;
+    left: 375px;
+    top: 180px;
+   
+  }
+  #searchInput {
+    width: 70%;
+    height: 90%;
+    padding: 20px;
+    border-radius: 25PX;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    margin-right: -6px;
+  }
+  .search-container button {
+    width: 25%;
+    height: 91%;
+    border-radius: 25PX;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+  .search-container button:hover{
+    cursor: pointer;
+    border: #000 2px solid;
+    background-color: #fff
+  }
+
+  .top-community-container-kyusimunity{
+    width: 1000px;
+    height: 200px;
+    margin: 25px auto;
+    background: linear-gradient(95deg, rgb(0,0,0), rgb(99, 99, 235));
+    border-radius: 25px;
+    padding: 25px;
+  }
+
+  .bottom-community-container-kyusimunity {
+    width: 1000px;
+    height: 600px;
+    margin: 25px auto;
+    background: linear-gradient(95deg, rgb(0,0,0), rgb(99, 99, 235));
+    border-radius: 25px;
+    overflow-y: auto; /* or overflow-y: scroll; */
+    display: flex;
+    flex-wrap: wrap;
+}
+  .top-community-textarea {
+    width: 100%;
+    height: 100px;
+    border-radius: 25px;
+    padding: 25px;
+    font-size: 20px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    font-family: 'Arial', sans-serif;;
+  }
+  #postButton {
+    widtH: 100px;
+    height: 45px;
+    float: right;
+    border-radius: 25px;
+    background: #fff;
+    color: blue;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  #postButton:hover {
+    cursor: pointer;
+    background-color: rgb(99, 60, 254);
+    color:#fff;
+  }
+
+  .posted-content {
+    padding: 50px;
+    margin: 20px auto;
+    width: 850px;
+    height: 200px;
+    background-color: #fff;
+    border-radius: 25px;
+  }
+  .post-container{
+    
+        padding: 10px;
+        margin: 20px auto;
+        width: 900px;
+        height: 350px;
+        background-color: #dad3d3;
+        border-radius: 25px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        position: relative;
+  }
+  .posted-profile {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 10px;
+  }
+
+  .like-button, .dislike-button {
+    width: 30px;
+    height: 10px;
+  }
+
+  .like-btn, .unlike-btn {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    border-radius: 25px;
+  }
+  .likes-container {
+    width: 125px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 0;
+    flex-wrap: wrap;
+    position: absolute;
+    bottom: 17px;
+    left: 500px;
+    text-align: center;
+  }
+  .like-count {
+    font-size: 17px;
+    color: blue;
+    font-weight: bold;
+    width: 300px;
+    margin-top: 20px;
+  }
+
+  .blur-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('bgimage.png'); /* Replace 'your-background-image.jpg' with the path to your background image */
+    filter: blur(5px); /* Adjust the blur radius as needed */
+    z-index: -1; /* Ensures the blurred background stays behind other content */
+    background-repeat: none;
+    background-size: cover;
+}
+
+.right-community-container-asks{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(95deg, rgb(0,0,0), rgb(99, 99, 235));
+    padding-top: 30px;
+    padding-left: 30px;
+    display: flex;
+    padding: 70px;
+    justify-content: space-evenly;
+
+}
+.right-community-container-asks label {
+    width: 100%;
+    font-size: 25px;
+    color: #fff;
+}
+.right-community-container-asks input, .right-community-container-asks textarea, .right-community-container-asks select {
+    width: 100%;
+    margin: 10px;
+    border-radius: 10px;
+}
+.right-community-container-asks input {
+    height: 50px;
+    font-size: 25px;
+    padding: 20px;
+}
+
+.right-community-container-asks textarea{
+    height: 350px;
+    padding: 50px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.right-community-container-asks button {
+    margin-left: 400px;
+    margin-top: 50px;
+    width: 200px;
+    padding: 15px;
+    height: 60px;
+    font-size: 20px;
+    border-radius: 10px;
+    color: #fff;
+    background: linear-gradient(95deg, rgb(0,0,0), rgb(99, 99, 235));
+}
+.right-community-container-asks button:hover {
+    cursor: pointer;
+   
+}
+
+.right-community-container-asks select {
+    height: 50px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.ask-container {
+    padding: 25px;
+    margin: 20px auto;
+    width: 900px;
+    height: 350px;
+    background-color: #dad3d3;
+    border-radius: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    position: relative;
+    overflow: auto;
+}
+
+
+.right-community-container-topics2 {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(95deg, rgb(0,0,0), rgb(99, 99, 235));
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
+.ask-title {
+    width: 100%;
+    font-size: 40px;
+}
+.ask-description {
+    width: 100%;
+    background-color: #fff;
+    height: auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+.ask-related-topic {
+    width: 100%;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.comments-container {
+    width: 400px;
+    height: 300px;
+    background-color: #fff;
+    overflow: auto;
+    padding: 20px;
+    position: absolute;
+ 
+    border: 4px black solid;
+    right: 50px;
+  
+}
+.show-comments {
+    margin: 10px;
+    height: 50px;
+    width: 80px;
+}
+
+.show-comments:hover {
+    cursor: pointer;
+}
+
+.highlighted {
+    border: 2px solid black;
+    background: linear-gradient(95deg, rgb(0,0,0), rgb(99, 99, 235));
+    color: #fff;
+    font-weight: bold;/* Change this to whatever highlight style you want */
+}
+
+.comment {
+    background-color: #dad3d3;
+    margin: 5px;
+    border-radius: 10px;
+    padding: 10px;
+}
+.ask-name {
+    width: 90%;
+}
+
+.textarea-comment {
+    width: 200px;
+    height: 70px;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+}
+.comment-button {
+   
+    height: 50px;
+    width: 200px;
+    border-radius: 10px;
+}
+.comment-button:hover {
+    cursor:pointer;
+
+}
+.commenter-profile-picture {
+    width: 50px;
+    height: 50px;
+    border-radius   : 50%;
+}
+.comment-content {
+    overflow-wrap: break-word;
+    background-color: #fff;
+    height: auto;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.filter-by-topic {
+    color: #fff;
+    font-size: 30px;
+    
+}
+
+#topic {
+    width: 500px;
+    height: 50px;
+    font-size: 40px;
+    text-align: center;
+
+}
+
+.delete-button-profile {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top:0;
+    right: 0;
+    cursor:pointer;
+}
